@@ -1188,6 +1188,7 @@ body.fixed {
     display: none;
     width: 100%;
     width: -webkit-fill-available;
+    width: -moz-available;
     height: 100%;
     padding: 0 15px;
     align-items: center;
