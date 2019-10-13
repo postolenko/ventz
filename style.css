@@ -265,7 +265,7 @@ h1 {
 .dropdown_item {
     background: transparent;
     margin: 24px 0;
-    padding: 0 5% 0 80px;
+    /*padding: 0 5% 0 80px;*/
     border: 1px solid #dcdcdc;
     position: relative;
     -webkit-transition-property: background, border;
@@ -343,7 +343,7 @@ h1 {
 }
 
 .dropdown_title {
-    padding: 30px 0 36px 0;
+    padding: 30px 5% 36px 80px;
     cursor: pointer;
 }
 
@@ -357,7 +357,7 @@ h1 {
 
 .dropdown_content {
     display: none;
-    padding: 4px 0 42px 0;
+    padding: 4px 5% 42px 80px;
 }
 
 .dropdown_content p {
@@ -379,7 +379,7 @@ h1 {
 .contact_form_sect {
     max-width: 840px;
     margin: 0 auto;
-    padding: 55px 0 13px 0;
+    padding: 55px 15px 13px 15px;
 }
 
 .contact_form_sect * {
@@ -532,6 +532,10 @@ h1 {
 
 /*- Section 1 - Vacansies --*/
 
+.vacansies_sect {
+    overflow: hidden;
+}
+
 .vacansies_sect * {
     margin: 0;
     padding: 0;
@@ -561,8 +565,6 @@ h1 {
 .card_title {
     display: flex;
     display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
     margin-bottom: 27px;
 }
 
@@ -572,6 +574,7 @@ h1 {
 
 .card_title .col:nth-child(2) {
     width: calc(100% - 110px);
+    padding-top: 22px;
 }
 
 .img_box_wrapp {
@@ -705,6 +708,7 @@ h1 {
     vertical-align: top;
     cursor: pointer;
     border-bottom: 1px solid #539cff;
+    text-decoration: none;
     font-family: "Myriad Pro";
     font-size: 18px;
     line-height: 18px;
@@ -1432,6 +1436,191 @@ body.fixed {
     color: #424242;
 }
 
-
-
 /*- /Popups --*/
+
+@media only screen and (max-width: 1200px) {
+    .row {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+/*-- Section 1 - Articles --*/
+
+.article_thumb {
+    width: calc(50% - 30px);
+}
+
+/*-- /Section 1 - Articles --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/*-- Section 1 - FAQ --*/
+
+.dropdown_item:after {
+    top: 14px;
+    left: 12px;
+}
+
+.dropdown_item:before {
+    top: 14px;
+    left: 12px;
+}
+
+.dropdown_title {
+    padding: 10px 5% 10px 45px;
+}
+
+.dropdown_title h3 {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.dropdown_content {
+    padding: 1px 5% 21px 45px;
+}
+
+.dropdown_content p {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+/*-- /Section 1 - FAQ --*/
+
+/*-- Section 2 - FAQ --*/
+
+.contact_form_sect {
+    padding: 30px 5px 10px 5px;
+}
+
+.input_wrapp textarea {
+    height: 130px;
+}
+
+.red_gradient_pill {
+    margin: 3px 0;
+}
+
+/*-- /Section 2 - FAQ --*/
+
+/*-- Section 1 - Vacansies --*/
+
+.vacansies_cards_wrapp {
+    display: block;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.vacansie_card {
+    width: 100%;
+    margin: 20px 0;
+    min-height: unset;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*-- /Section 1 - Vacansies --*/
+
+}
+
+@media only screen and (max-width: 650px) {
+
+/*-- Section 1 - Articles --*/
+
+.articles_wrapp {
+    display: block;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.article_thumb {
+    width: 100%;
+    width: -webkit-fill-available;
+    margin: 15px 0;
+}
+
+/*-- /Section 1 - Articles --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*-- Section 2 - FAQ --*/
+
+    .inputs_wrapp {
+        display: block;        
+    }
+
+    .input_wrapp {
+        margin: 8px 0;
+    }
+
+    .inputs_wrapp .input_wrapp {
+        width: unset;
+        margin: 8px 0;
+    }
+
+    /*-- /Section 2 - FAQ --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*-- Section 1 - FAQ --*/
+
+.dropdown_title h3 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.dropdown_content p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/*-- /Section 1 - FAQ --*/
+
+/*-- Section 2 - FAQ --*/
+
+.contact_form_title h2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+/*-- /Section 2 - FAQ --*/
+
+/*-- Section 1 - Vacansies --*/
+
+.card_title {
+    display: block;
+    margin-bottom: 0;
+}
+
+.card_title .col:nth-child(1) {
+    display: none;
+}
+
+.card_title .col:nth-child(2) {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.card_title h3 {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+/*-- /Section 1 - Vacansies --*/
+
+/*-- Section 1 - Articles --*/
+
+.article_thumb .img_box {
+    height: 221px;
+}
+
+/*-- /Section 1 - Articles --*/
+
+}
