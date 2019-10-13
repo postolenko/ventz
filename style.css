@@ -1223,6 +1223,15 @@ body.fixed {
     background: rgba(89, 89, 89, .22);
 }
 
+.popup_sect * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 .popup_wrapp {
     max-width: 615px;
     margin: 50px auto 20px auto;
@@ -1235,15 +1244,6 @@ body.fixed {
     -moz-box-shadow: 0 0 27px 0 rgba(0, 0, 0, .21);
     box-shadow: 0 0 27px 0 rgba(0, 0, 0, .21);
     position: relative;
-}
-
-.popup_wrapp * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-decoration: none;
 }
 
 .close_btn {
