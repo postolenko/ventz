@@ -877,10 +877,6 @@ h1 {
     background-position: center;
 }
 
-.date {
-
-}
-
 .date p {
     display: inline-block;
     vertical-align: top;
@@ -902,10 +898,6 @@ h1 {
     line-height: 22px;
     font-weight: bold;
     color: #424242;
-}
-
-.article_descript {
-
 }
 
 .article_descript p {
@@ -1109,6 +1101,7 @@ h1 {
 }
 
 .thumb_1 {
+    display: block;
     width: calc(33.33% - 30px);
     margin: 15px;
     cursor: pointer;
