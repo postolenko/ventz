@@ -1199,6 +1199,7 @@ body.fixed {
 .popup_sect {
     display: none;
     width: 100%;
+    width: auto;
     width: -webkit-fill-available;
     width: -moz-available;
     height: 100%;
@@ -1251,10 +1252,6 @@ body.fixed {
     position: absolute;
     top: 15px;
     right: 15px;
-}
-
-.forn_2_wrapp {
-
 }
 
 .forn_2_wrapp h3 {
