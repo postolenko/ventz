@@ -836,6 +836,7 @@ h1 {
 
 .article_thumb .img_box {
     height: 270px;
+    overflow: hidden;
     position: relative;
     background-color: #888888;
 }
