@@ -1210,7 +1210,6 @@ body.fixed {
 .popup_sect {
     display: none;
     width: 100%;
-    width: auto;
     width: -webkit-fill-available;
     width: -moz-available;
     height: 100%;
