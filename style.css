@@ -1615,7 +1615,7 @@ body.fixed {
 .thumb_1 {
     width: 100%;
     width: -webkit-fill-available;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 /*-- Section 1 - Article Page --*/
