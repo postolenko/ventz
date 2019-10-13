@@ -1024,6 +1024,11 @@ h1 {
     padding-left: 15px;
 }
 
+.date_2 .calendar {
+    position: relative;
+    top: 2px;
+}
+
 .left_img {
     height: 270px;
     background-color: #888888;
@@ -1454,6 +1459,28 @@ body.fixed {
 
 /*-- /Section 1 - Articles --*/
 
+/*-- Section 1 - Article Page --*/
+
+.aticle_templ {
+    display: block;
+    margin: 10px 0;
+}
+
+.left_col {
+    display: none;
+}
+
+.right_col {
+    width: 100%;
+    padding: 0;
+}
+
+.thumb_1 {
+    width: calc(50% - 30px);
+}
+
+/*-- Section 1 - Article Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1543,6 +1570,40 @@ body.fixed {
 }
 
 /*-- /Section 1 - Articles --*/
+
+/*-- Section 1 - Article Page --*/
+
+.article h2 {
+    font-size: 27px;
+    line-height: 28px;
+}
+
+/*-- /Section 1 - Article Page --*/
+
+/*-- Section 1 - Article Page --*/
+
+.articles_thumbs_wrapp {
+    padding: 30px 0 10px 0;
+}
+
+.articles_thumbs_wrapp h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.thumbnails_1 {
+    display: block;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.thumb_1 {
+    width: 100%;
+    width: -webkit-fill-available;
+    margin: 15px 0;
+}
+
+/*-- Section 1 - Article Page --*/
 
 }
 
