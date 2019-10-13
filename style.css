@@ -1187,7 +1187,9 @@ body.fixed {
 .popup_sect {
     display: none;
     width: 100%;
+    width: -webkit-fill-available;
     height: 100%;
+    padding: 0 15px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -1625,6 +1627,43 @@ body.fixed {
     }
 
     /*-- /Section 2 - FAQ --*/
+
+    /*-- Popups --*/
+
+    .inputs_wrapp_2 .input_wrapp {
+        width: 100%;
+        width: -webkit-fill-available;
+        margin: 8px 0;
+    }
+
+    .inputs_wrapp_2 .input_wrapp_2 {
+        width: 100%;
+        width: -webkit-fill-available;
+        margin: 8px 0;
+    }
+
+    .submit_wrapp_2 {
+        display: block;
+        margin: 0;
+    }
+
+    .submit_wrapp_2 .col:nth-child(1) {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .submit_wrapp_2 .col:nth-child(2) {
+        width: 100%;
+        padding: 10px 0;
+        text-align: left;
+    }
+
+    .submit_wrapp_2 .red_gradient_pill {
+        width: 100%;
+        width: -webkit-fill-available;
+    }
+
+    /*-- /Popups --*/
 
 }
 
