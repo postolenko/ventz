@@ -1213,7 +1213,6 @@ body.fixed {
     width: -webkit-fill-available;
     width: -moz-available;
     height: 100%;
-    padding: 0 15px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -1234,6 +1233,7 @@ body.fixed {
 
 .popup_wrapp {
     max-width: 615px;
+    width: 96%;
     margin: 50px auto 20px auto;
     padding: 9px 25px;
     -webkit-border-radius: 6px;
